@@ -18,9 +18,9 @@
 //const char* ssid     = "Cuong";        
 //const char* password = "vi123456";  
 
-// WiFi
-const char* ssid     = "MangDayKTX H1-803";        
-const char* password = "h1803h1803";  
+const char* ssid     = "Galaxy A7114A7";        
+const char* password = "hieunol123";  
+ 
 // MQTT
 const char* mqtt_server   = "c4c3e7f0542c4c4e99afe483bac974e6.s1.eu.hivemq.cloud";
 const int   mqtt_port     = 8883;
@@ -34,7 +34,7 @@ const char* mqtt_topic_ai_fire = "esp32cam/fire_detection";
 // Chống spam
 bool alertSent = false;
 unsigned long lastAlertMillis = 0;
-const unsigned long ALERT_COOLDOWN = 30UL * 1000; // 30 giây
+const unsigned long ALERT_COOLDOWN = 10UL * 1000; // 30 giây
 
 // Sensors pins
 const int smokePin      = 34;

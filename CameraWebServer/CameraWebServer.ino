@@ -23,9 +23,11 @@
 //const char* ssid     = "CuongYet";        
 //const char* password = "aaaaaaaa";  
 // WiFi
-const char* ssid     = "Cuong";        
-const char* password = "vi123456";  
+//const char* ssid     = "Cuong";        
+//const char* password = "vi123456";  
 
+const char* ssid     = "Galaxy A7114A7";        
+const char* password = "hieunol123";  
 void startCameraServer();
 void setupLedFlash();
 
